@@ -1,0 +1,39 @@
+.flex {
+  display: flex;
+  justify-content: center;
+}
+
+.flex-item + .flex-item {
+  margin-left: 10px;
+}
+
+.button {
+  margin-top: 15px;
+  background-color: #0066FF;
+  border: none;
+  color: white;
+  padding: 10px 20px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  cursor: pointer;
+}
+
+.center{
+  text-align: center;
+}
+
+.centerbordertop15{
+  text-align: center;
+  margin-top: 15%;
+}
+
+.centerpadding{
+  text-align: center;
+  padding: 1%;
+}
+
+.bigbuttontext{
+  font-size: large;
+}
