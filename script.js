@@ -10,4 +10,18 @@ function balanceprompt(){
         alert("Input a valid amount.")
     }
 }
-console.log(balance)
+function balChange(){
+    balAmount.innerHTML = (`Your balance : ${balance}$`)
+}
+var timeDisplay = document.getElementById("time");
+
+document.getElementById("test").innerHTML =
+      Intl.DateTimeFormat().resolvedOptions().timeZone;
+
+function refreshTime() {
+  var dateString = new Date().toLocaleString("en-US", {timeZone: test.innerHTML});
+  var formattedString = dateString.replace(", ", " - ");
+  timeDisplay.innerHTML = formattedString;
+}
+
+setInterval(refreshTime, 1000);

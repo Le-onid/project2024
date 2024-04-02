@@ -37,3 +37,13 @@
 .bigbuttontext{
   font-size: large;
 }
+
+.centerbordertop10{
+  text-align: center;
+  margin-top: 10%;
+}
+
+.right{
+  text-align: right;
+  
+}
