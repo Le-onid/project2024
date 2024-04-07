@@ -4,16 +4,21 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=\, initial-scale=1.0">
-    <title>Document</title>
+    <title>Kazino 777</title>
     <link rel="stylesheet" href="./styles.css">
 </head>
-<body>
-    <div class="center"><button type="button" onclick="balanceprompt(),balChange()" class="bigbuttontext">Add balance</button></div>
-    <p id="balAmount" class="centerbordertop10">Your balance : 0$</p>
+<body onload="nameapply()">
+    <div class="center"><button type="button" onclick="balanceprompt(),balChange()" class="bigbuttontext">Papildināt bilanci</button></div>
+    <p id="balAmount" class="centerbordertop10">Jūsu bilance : 0$</p>
+    <div class="container"><p class="centerbigtext" id="slot">777</p></div>
+    <div class="center"><button type="button" class="hugebuttontext" onclick="spin()">SPIN</button></div>
+    <div class="center"><button type="button" onclick="bet(),betChange()" class="bigbuttontext">Likme</button></div>
+    <p id="betAmount" class="down">Izvelieties likmi!</p>
     <div class="right"><p id="test"></p></div>
-    <div class="right"><p id="time"></p></div>
-
-
+    <div class="upright" id="displaytext"><p></p></div>
+    <div class="center"><a href="registerPage.html"><button type="button" class="bigbuttontextleft">Atpakaļ</button></a></div>
+    <p id="motivation" class="quote"></p>
+    <img src="images/777.png" width="500" height="250" class="imageleft">
     <script src="script.js"></script>
 </body>
 </html>

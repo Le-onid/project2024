@@ -26,7 +26,7 @@
 
 .centerbordertop15{
   text-align: center;
-  margin-top: 15%;
+  margin-top: 14%;
 }
 
 .centerpadding{
@@ -45,5 +45,53 @@
 
 .right{
   text-align: right;
-  
+  font-size: medium;
+}
+
+.centerbigtext{
+  text-align: center;
+  font-size: 6rem;
+  border: 3px solid black;
+}
+
+.hugebuttontext{
+  font-size: 4rem;
+  margin-bottom: 1%;
+}
+
+.container{
+  max-width: 200px;
+  margin: auto;
+}
+.down{
+  margin-bottom: 8%;
+  text-align: center;
+}
+
+.upright {
+    position: fixed;
+    top: 10px;
+    right: 10px; 
+    font-size: large;
+}
+
+.bigbuttontextleft{
+  font-size: large;
+  position: fixed;
+  top: 10px;
+  left: 10px;
+}
+.bigcenter{
+  font-size: 4rem;
+  text-align: center;
+  margin-top: 5%;
+}
+
+.imageleft{
+  position: fixed;
+  bottom: 1%;
+  left: 1%;
+}
+.quote{
+text-align: center;
 }
